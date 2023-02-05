@@ -1,6 +1,6 @@
 const express = require("express");
 const productRouter = express.Router();
-const { ProductModel } = require("../models/product.model");
+const { ProductModel } = require("../models/Product.model");
 
 productRouter.get("/", async (req, res) => {
   const query = req.query;
